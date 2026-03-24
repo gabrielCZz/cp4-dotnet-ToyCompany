@@ -1,0 +1,41 @@
+@ToyCompany.Api_HostAddress = http://localhost:5184
+
+GET {{ToyCompany.Api_HostAddress}}/brinquedos
+Accept: application/json
+
+###
+
+GET {{ToyCompany.Api_HostAddress}}/brinquedos/1
+Accept: application/json
+
+###
+
+POST {{ToyCompany.Api_HostAddress}}/brinquedos
+Content-Type: application/json
+
+{
+  "nomeBrinquedo": "Carrinho Turbo",
+  "tipoBrinquedo": "Veiculo",
+  "classificacao": 8,
+  "tamanho": "Medio",
+  "preco": 89.90
+}
+
+###
+
+PUT {{ToyCompany.Api_HostAddress}}/brinquedos/1
+Content-Type: application/json
+
+{
+  "nomeBrinquedo": "Carrinho Turbo X",
+  "tipoBrinquedo": "Veiculo",
+  "classificacao": 10,
+  "tamanho": "Grande",
+  "preco": 99.90
+}
+
+###
+
+DELETE {{ToyCompany.Api_HostAddress}}/brinquedos/1
+
+###

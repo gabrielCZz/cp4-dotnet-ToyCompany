@@ -1,0 +1,16 @@
+bin/
+obj/
+.vs/
+.vscode/
+TestResults/
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+appsettings.Local.json
+appsettings.*.local.json
+
+*.nupkg
+*.snupkg
