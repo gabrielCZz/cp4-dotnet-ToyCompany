@@ -180,6 +180,7 @@ dotnet test
 
 ## Resultado do `dotnet test`
 
+<img width="925" height="401" alt="image" src="https://github.com/user-attachments/assets/d2e01da4-9d15-4722-8fb2-08f18deda33a" />
 
 
 ## Observacoes
